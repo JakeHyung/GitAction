@@ -31,7 +31,7 @@ jobs:
     # 파이썬 라이브러리 설치
     - name : install pyton library
       run : |
-        pip install beatifulsoup4
+        pip install beautifulsoup4
         pip install request
         pip install lxml
         pip install pandas
