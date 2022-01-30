@@ -32,7 +32,7 @@ jobs:
     - name : install pyton library
       run : |
         pip install beautifulsoup4
-        pip install request
+        pip install requests
         pip install lxml
         pip install pandas
 
