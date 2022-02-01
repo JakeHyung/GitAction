@@ -11,4 +11,4 @@ for i in range(1,100,10) :
     dic = {"기사" : titleList}
     
 df = pd.DataFrame(dic)
-df.to_csv("data.csv",encoding="euc-kr",index=False)
+df.to_csv("data.csv",encoding="utf-8",index=False)
